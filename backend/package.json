@@ -1,0 +1,19 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "BACKENDSERVER",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "HACKSTER254",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "mongoose": "^6.2.6",
+        "nodemon": "^2.0.15"
+    }
+}
